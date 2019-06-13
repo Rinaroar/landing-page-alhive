@@ -1,0 +1,264 @@
+html {
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+#replace {
+    display: none;
+}
+
+.text-white {
+    color: #ffffff;
+}
+
+@media screen and (min-width: 576px) {
+    body {
+        width: 99%;
+        height: 100%;
+        background-image: url('/web/public/images/background_image.png');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    header {
+        width: 100%;
+        margin: 6% 5%;
+    }
+
+    section {
+        width: 90%;
+        margin: 10% 5%;
+    }
+
+    .contact {
+        color: yellow;
+        text-decoration: none;
+    }
+
+    .main-corp {
+        text-align: center;
+    }
+
+    .main-corp h1 {
+        font-family: 'Tungsten-Book';
+        font-size: 85px;
+        margin: 0;
+    }
+
+    .main-corp p {
+        font-family: 'DINPro Medium';
+        margin-top: 0;
+    }
+
+    .main-corp a {
+        font-family: 'DINPro Medium';
+    }
+
+    .main-form {
+        text-align: center;
+    }
+
+    .main-form p {
+        font-family: 'DINPro Bold';
+        text-transform: uppercase;
+        font-size: 15px;
+        margin-top: 4.5%;
+        margin-bottom: 2%;
+    }
+
+    .main-form form {
+        font-family: 'DINPro Medium';
+        margin: 0;
+    }
+
+    #input-button {
+        display: inline;
+        vertical-align: center;
+        width: 12%;
+        padding: 20px 10px 20px 10px;
+        border: 2px solid yellow;
+    }
+
+    #input-button input, button {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    #input-button input {
+        font-size: 16px;
+        padding-right: 50px;
+    }
+
+    #input-button button {
+        font-family: 'Tungsten-Book';
+        font-size: 20px;
+        color: white;
+        padding-left: 10px;
+        border-left: 2px solid yellow;
+    }
+
+    input::placeholder {
+        color: lightgray;
+        font-style: italic;
+    }
+
+    .network {
+        position: absolute;
+        top: 40%;
+        left: 94%;
+    }
+
+    .follow-us {
+        font-family: 'Tungsten-Book';
+        writing-mode: vertical-rl;
+        font-size: 20px;
+    }
+
+    .facebook {
+        margin: 25px 8px;
+    }
+
+    .instagram {
+        margin: 25px 5px;
+    }
+}
+
+
+
+
+@media screen and (max-width: 576px) {
+    body {
+        width: 100%;
+        height: 100%;
+        background-image: url('/web/public/images/m_page_attente.png');
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+    }
+
+    header {
+        width: 100%;
+        margin: 6% 5%;
+    }
+
+    section {
+        width: 90%;
+        margin: 45% 5%;
+    }
+
+    .logo {
+        width: 20%;
+        height: auto;
+    }
+
+    .contact {
+        color: yellow;
+        text-decoration: none;
+    }
+
+    .main-corp {
+        text-align: center;
+    }
+
+    .main-corp h1 {
+        font-family: 'Tungsten-Book';
+        font-size: 60px;
+        margin-bottom: 5px;
+    }
+
+    .main-corp p {
+        font-family: 'DINPro Medium';
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .main-corp a {
+        font-family: 'DINPro Medium';
+        font-size: 15px;
+    }
+
+    .main-form {
+        text-align: center;
+        margin-top: 15%;
+    }
+
+    .main-form p {
+        font-family: 'DINPro Bold';
+        text-transform: uppercase;
+        font-size: 15px;
+        margin-top: 8%;
+    }
+
+    .main-form form {
+        font-family: 'DINPro Medium';
+        margin-top: 10%;
+    }
+
+    #replace {
+        width: 60%;
+        margin-left: 18%;
+    }
+
+    #replace p {
+        line-height: 170%;
+    }
+
+    #input-button {
+        display: inline;
+        vertical-align: center;
+        width: 12%;
+        padding: 28px 23px 23px 28px;
+        border: 2px solid yellow;
+    }
+
+    #input-button input, button {
+        background-color: transparent;
+        border-color: transparent;
+    }
+
+    #input-button input {
+        font-size: 16px;
+        padding-right: 50px;
+        color: #ffffff;
+    }
+
+    #input-button button {
+        font-family: 'Tungsten-Book';
+        font-size: 20px;
+        color: white;
+        padding-left: 30px;
+        border-left: 2px solid yellow;
+    }
+
+    input::placeholder {
+        color: lightgray;
+        font-size: 18px;
+    }
+
+    .network {
+        position: absolute;
+        top: 91%;
+        left: 35%;
+    }
+
+    .follow-us {
+        display: inline-block;
+        font-family: 'Tungsten-Book';
+        font-size: 16px;
+    }
+
+    .facebook {
+        display: inline-block;
+        margin-left: 15px;
+    }
+
+    .instagram {
+        display: inline-block;
+        margin-left: 15px;
+    }
+}
+
+/* contact trop éloigné du texte.
+/* icons network trop petites
